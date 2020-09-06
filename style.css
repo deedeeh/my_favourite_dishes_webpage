@@ -20,3 +20,16 @@ body {
   height: auto;
   margin-top: 1em;
 }
+
+.egyptian_dish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.food_img {
+  width: 80%;
+  height: auto;
+  margin: 1em;
+}
