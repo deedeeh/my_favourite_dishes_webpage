@@ -11,15 +11,32 @@ html {
   }
 
 body {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 0;
 }
 
-body.cover {
+.main_heading {
+  margin-top: .7em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.navbar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  padding: .5em;
+  text-decoration: none;
+}
+
+.cover {
   width: 100%;
   height: auto;
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 .egyptian_dish {
