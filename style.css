@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
 
 html {
   -webkit-box-sizing: border-box;
@@ -7,11 +7,13 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-  }
+}
 
 body {
   width: 95%;
@@ -23,27 +25,26 @@ body {
 .main_heading {
   margin: 0;
   padding: 1em;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   font-size: 2.2em;
   color: #fff;
-  background-color: #DBAE56;
+  background-color: #dbae56;
   text-align: center;
   text-transform: capitalize;
-  
 }
 
 .navbar {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: #468A8F;
+  background-color: #468a8f;
 }
 
 .navbar a {
-  padding: .5em;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.2em;
+  padding: 0.5em;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.3em;
   color: #fff;
   text-decoration: none;
 }
@@ -55,9 +56,13 @@ body {
 }
 
 .intro_heading {
-  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0.6em;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 1.4em;
+  color: #fff;
+  background-color: #db8c81;
   text-transform: capitalize;
 }
 
@@ -65,21 +70,29 @@ body {
   line-height: 1.4em;
 }
 
-.egyptian_dish {
+.dish {
+  margin-bottom: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.cuisines {
-  font-family: 'Roboto Condensed', sans-serif;
+.cuisine_name {
+  margin-bottom: 0;
+  padding: 0.6em;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   font-size: 1.4em;
-  margin-bottom: 0;
+  color: #fff;
+  background-color: #8f554d;
 }
 
-.food_img {
+.cuisine_dishes > :first-child .dish_img {
+  margin-top: 0;
+}
+
+.dish_img {
   width: 100%;
   height: auto;
   margin: 1em 1em 0.5em 1em;
@@ -92,38 +105,36 @@ body {
 .dish_content > h4 {
   margin-top: 1em;
   margin-bottom: 0;
+  color: #8f554d;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .dish_content > p {
+  margin: 0.5em 0;
   line-height: 1.4em;
 }
 
 .dish_link:link {
-  padding: 1em;
-  color: #fff;
-  background-color: teal;
+  font-weight: bold;
+  color: #468a8f;
   text-decoration: none;
-  border-radius: .5em;
 }
 
 .dish_link:visited {
-  color: #fff;
-  background-color: teal;
+  color: #468a8f;
 }
 
 .dish_link:hover {
-  color: #fff;
-  background-color: #000;
+  color: #db8c81;
 }
 
 footer {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.1em;
   font-weight: 700;
-  padding: .3em;
+  padding: 0.3em;
   color: #fff;
-  background-color: #DBAE56;
+  background-color: #dbae56;
   text-align: center;
 }
